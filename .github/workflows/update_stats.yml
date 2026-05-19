@@ -1,0 +1,39 @@
+name: Daily DUPR Stats Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run once daily at 12:00 AM UTC
+  workflow_dispatch: # Allows manual trigger from the GitHub Repository Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run DUPR Scraper Script
+        run: node scripts/update_dupr_stats.js
+        env:
+          DUPR_EMAIL: ${{ secrets.DUPR_EMAIL }}
+          DUPR_PASSWORD: ${{ secrets.DUPR_PASSWORD }}
+          DUPR_ID: ${{ secrets.DUPR_ID }}
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/dupr.json
+          git diff-index --quiet HEAD || (git commit -m "chore: update daily DUPR stats" && git push)
