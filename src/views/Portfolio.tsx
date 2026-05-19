@@ -4,16 +4,15 @@ import actionShot from '../assets/pickleball_action.png';
 
 export const Portfolio: React.FC = () => {
   const accomplishments = [
-    { id: 1, title: 'Gold Medalist - Men\'s Doubles 4.0', event: 'Austin Regional Pickleball Open', date: 'April 2026', desc: 'Undefeated run (6-0) in double-elimination bracket with partner Marcus R.' },
-    { id: 2, title: 'Silver Medalist - Mixed Doubles 4.0', event: 'Texas State Amateur Championships', date: 'October 2025', desc: 'Fought through a 16-team field, falling short in a tight 3-game final match.' },
-    { id: 3, title: 'Quarterfinalist - Men\'s Singles 4.0', event: 'Lone Star Shootout', date: 'September 2025', desc: 'First singles tournament tournament showing strong baseline game.' },
+    { id: 1, title: 'Silver Medalist - Mixed Doubles 4.0 (Age 18+)', event: 'Legends of the Court 2', date: 'March 2026', desc: 'Near undefeated run with girlfriend Rhianna' },
+    { id: 3, title: '4th Place - Mens Doubles 3.0 (Age 19+)', event: 'Tournament Of Champions', date: 'November 2024', desc: 'Second event ever playing doubles with my friend' },
+    { id: 2, title: '4th Place - Mens Singles 3.5 (Age 19+)', event: 'Tournament Of Champions', date: 'November 2024', desc: 'First ever tournament event playing mens singles' },
   ];
 
   const gear = [
-    { category: 'Paddle', name: 'Selkirk Vanguard Control Invicto (16mm)', specs: 'Raw Carbon Fiber, QuadCarbon face, Control-focus', condition: 'Active' },
-    { category: 'Footwear', name: 'Babolat Jet Tere All Court', specs: 'Michelin outsole, lightweight speed profile', condition: 'Excellent' },
-    { category: 'Bags & Accessories', name: 'Franklin Sports Pro Series Bag', specs: 'Thermal insulation, shoe compartment, holds 6 paddles', condition: 'Active' },
-    { category: 'Balls', name: 'Dura Fast 40 / Selkirk Pro S1', specs: 'Outdoor high-performance balls, consistent bounce', condition: 'Consumable' }
+    { category: 'Paddle', name: 'V-Sol Pro Bloom (16mm)', specs: 'Foam Core, Carbon Fiber Face, Widebody', condition: 'Active' },
+    { category: 'Footwear', name: 'Mizuno Wave Lightning Z8', specs: 'For quick literal movements and precise footwork', condition: 'Excellent' },
+    { category: 'Balls', name: 'Franklin X-40', specs: 'Outdoor high-performance balls, consistent bounce', condition: 'Consumable' }
   ];
 
   return (
@@ -34,20 +33,22 @@ export const Portfolio: React.FC = () => {
             <div className="bio-content">
               <h3>Bio</h3>
               <p>
-                Picking up a paddle in early 2024, I quickly transitioned from recreational play to competitive brackets. Combining a tennis background with pickleball-specific kitchen dink strategies, I focus on soft kitchen play, fast resets, and high-percentage roll volleys.
+                I picked up a paddle early 2024 (I think) because my knees hurted from excessive Volleyball.
+                Ever since then I loved the game because the rallies are lively and exciting.
+                My beautiful girlfriend Rhianna and I are on the road to becoming greating Pickleball players.
+                I focus mainly on defensive play, consistency, and elevating my strategic play.
               </p>
               <div className="tag-cloud">
                 <span className="tag">Lefty Player</span>
-                <span className="tag">Dink Specialist</span>
+                <span className="tag">Defensive Specialist</span>
                 <span className="tag">Control Paddle</span>
-                <span className="tag">DUPR 4.3</span>
               </div>
             </div>
           </div>
 
           {/* Current Gear */}
           <div className="content-card gear-card">
-            <h2>Current Gear Bag</h2>
+            <h2>Current Gear</h2>
             <div className="gear-list">
               {gear.map((item, idx) => (
                 <div className="gear-item" key={idx}>
@@ -98,41 +99,28 @@ export const Portfolio: React.FC = () => {
                 </div>
                 <div className="timeline-content">
                   <span className="timeline-date">April 2026</span>
-                  <h4>Reached 4.3 DUPR Goal</h4>
-                  <p>Confirmed rating update after securing Gold at the Austin Regional Pickleball Open.</p>
+                  <h4>Reached 4.1 DUPR</h4>
+                  <p>Peaked for an hour then lost the next match and went back down to 3.9</p>
                 </div>
               </div>
-
-              <div className="timeline-item">
-                <div className="timeline-badge">
-                  <CheckCircle2 size={16} />
-                </div>
-                <div className="timeline-content">
-                  <span className="timeline-date">December 2025</span>
-                  <h4>Began Coaching &amp; Drills Program</h4>
-                  <p>Partnered with a private coach to refine third-shot drop mechanics and court coverage speed.</p>
-                </div>
-              </div>
-
               <div className="timeline-item">
                 <div className="timeline-badge">
                   <CheckCircle2 size={16} />
                 </div>
                 <div className="timeline-content">
                   <span className="timeline-date">June 2025</span>
-                  <h4>Entered First Competitive 4.0 Tournament</h4>
-                  <p>Represented local club in regional qualifiers, capturing the silver and setting the stage for future competitive matches.</p>
+                  <h4>Entered First Competitive Tournament</h4>
+                  <p>Participated at local facility tournament, gained tournament experience.</p>
                 </div>
               </div>
-
               <div className="timeline-item">
                 <div className="timeline-badge">
                   <CheckCircle2 size={16} />
                 </div>
                 <div className="timeline-content">
-                  <span className="timeline-date">February 2024</span>
+                  <span className="timeline-date">Early 2024</span>
                   <h4>First Pickleball Game</h4>
-                  <p>Discovered the sport at Austin municipal courts and developed an immediate passion for fast kitchen exchanges.</p>
+                  <p>Discovered the sport at HiSports Durham with my girlfriend and got hooked ever since.</p>
                 </div>
               </div>
             </div>

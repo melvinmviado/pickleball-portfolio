@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react';
 import { Sidebar } from './components/Sidebar';
 import { Home } from './views/Home';
 import { Portfolio } from './views/Portfolio';
-import { Stats } from './views/Stats';
-import { Settings } from './views/Settings';
 import './App.css';
 
 function App() {
@@ -17,7 +15,7 @@ function App() {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '');
-      const validViews = ['home', 'portfolio', 'stats', 'settings'];
+      const validViews = ['home', 'portfolio'];
       if (validViews.includes(hash)) {
         setCurrentView(hash);
       } else {
@@ -50,10 +48,6 @@ function App() {
     switch (currentView) {
       case 'portfolio':
         return <Portfolio />;
-      case 'stats':
-        return <Stats />;
-      case 'settings':
-        return <Settings theme={theme} setTheme={setTheme} />;
       case 'home':
       default:
         return <Home />;

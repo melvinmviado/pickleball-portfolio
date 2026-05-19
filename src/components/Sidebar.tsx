@@ -1,5 +1,4 @@
-import React from 'react';
-import { Home, Award, BarChart2, Settings, Sun, Moon, ChevronLeft, ChevronRight, Play } from 'lucide-react';
+import { Home, Award, Sun, Moon, ChevronLeft, ChevronRight, Play } from 'lucide-react';
 
 interface SidebarProps {
   currentView: string;
@@ -21,8 +20,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
   const menuItems = [
     { id: 'home', label: 'Dashboard', icon: Home },
     { id: 'portfolio', label: 'Portfolio', icon: Award },
-    { id: 'stats', label: 'Match Stats', icon: BarChart2 },
-    { id: 'settings', label: 'Settings', icon: Settings },
   ];
 
   return (

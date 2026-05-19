@@ -1,77 +1,365 @@
 {
   "player": {
     "name": "Melvin Viado",
-    "duprId": "DUPR-893-XKL",
-    "duprRating": "4.32",
+    "duprId": "2QEENR",
+    "duprRating": "3.907",
     "duprChange": "+0.15 this month",
-    "winRate": "72.4%",
-    "winCount": 21,
-    "lossCount": 8,
-    "matchesCount": "29",
+    "winRate": "63.3%",
+    "winCount": 19,
+    "lossCount": 11,
+    "matchesCount": "30",
     "tournamentWins": "3",
-    "homeCourt": "Riverfront Pickleball Arena, Austin TX",
-    "playStyle": "Third Shot Drop Specialist, Heavy Top-Spin",
-    "currentPaddle": "Selkirk Vanguard Control Invicto (16mm)",
-    "nextTournament": "Austin Summer Open (June 12, 2026)"
+    "homeCourt": "Oshawa, ON, CA",
+    "playStyle": "Defensive Specialist, Loves Resets",
+    "currentPaddle": "Vatic Pro V-SOL Pro Bloom (16mm)",
+    "nextTournament": "TBD",
+    "reliabilityScore": "36%",
+    "avgOpponentRating": "3.599"
   },
   "recentMatches": [
     {
       "id": 1,
-      "partner": "Marcus R.",
-      "opponents": "Dave S. & John D.",
-      "score": "11-8, 11-6",
-      "result": "Win",
-      "date": "Yesterday",
+      "partner": "Rhianna Olicia",
+      "opponents": "Sinéad  Kappel & Andrew Dawson",
+      "score": "6-11, 3-11",
+      "result": "Loss",
+      "date": "Mar 13",
       "type": "Tournament"
     },
     {
       "id": 2,
-      "partner": "Sarah L.",
-      "opponents": "Elena K. & Tom W.",
-      "score": "11-9, 7-11, 12-10",
+      "partner": "Rhianna Olicia",
+      "opponents": "Lucy Gong & Nicholas  bray",
+      "score": "15-3",
       "result": "Win",
-      "date": "3 days ago",
-      "type": "Rec"
+      "date": "Mar 13",
+      "type": "Tournament"
     },
     {
       "id": 3,
-      "partner": "Marcus R.",
-      "opponents": "Chris M. & Tyler B.",
-      "score": "6-11, 11-9, 8-11",
-      "result": "Loss",
-      "date": "May 14",
+      "partner": "Rhianna Olicia",
+      "opponents": "sachita koorji & christopher barber",
+      "score": "15-11",
+      "result": "Win",
+      "date": "Mar 13",
       "type": "Tournament"
     },
     {
       "id": 4,
-      "partner": "None (Singles)",
-      "opponents": "Alex Johnson",
-      "score": "11-5, 11-4",
+      "partner": "Rhianna Olicia",
+      "opponents": "Deborah Senior & Zavier Nelson",
+      "score": "15-3",
       "result": "Win",
-      "date": "May 10",
-      "type": "Singles"
+      "date": "Mar 13",
+      "type": "Tournament"
+    },
+    {
+      "id": 5,
+      "partner": "Rhianna Olicia",
+      "opponents": "Tiffany Yung & Jackie Yeung",
+      "score": "15-7",
+      "result": "Win",
+      "date": "Mar 13",
+      "type": "Tournament"
+    },
+    {
+      "id": 6,
+      "partner": " Kumar Yarlagadda ",
+      "opponents": "Mark Hervias & Crystal  Rose",
+      "score": "11-0",
+      "result": "Win",
+      "date": "Apr 18",
+      "type": "Rec"
+    },
+    {
+      "id": 7,
+      "partner": "Crystal  Rose",
+      "opponents": "Jesse Choi & Glenn Ocampo",
+      "score": "2-11",
+      "result": "Loss",
+      "date": "Apr 18",
+      "type": "Rec"
+    },
+    {
+      "id": 8,
+      "partner": "Glenn Ocampo",
+      "opponents": " Kumar Yarlagadda  & Hiyas  Colasito",
+      "score": "9-11",
+      "result": "Loss",
+      "date": "Apr 18",
+      "type": "Rec"
+    },
+    {
+      "id": 9,
+      "partner": "Gerritt Van Leeuwen",
+      "opponents": "Glenn Ocampo & Crystal  Rose",
+      "score": "12-10",
+      "result": "Win",
+      "date": "Apr 18",
+      "type": "Rec"
+    },
+    {
+      "id": 10,
+      "partner": "Saad Haseen",
+      "opponents": "Rui Ponte & Michael  flynn",
+      "score": "11-1",
+      "result": "Win",
+      "date": "Apr 15",
+      "type": "Rec"
+    },
+    {
+      "id": 11,
+      "partner": "Michael  flynn",
+      "opponents": "Saad Haseen & Jeffery Iu",
+      "score": "11-1",
+      "result": "Win",
+      "date": "Apr 15",
+      "type": "Rec"
+    },
+    {
+      "id": 12,
+      "partner": "Saad Haseen",
+      "opponents": "Rui Ponte & Jeffery Iu",
+      "score": "11-8",
+      "result": "Win",
+      "date": "Apr 15",
+      "type": "Rec"
+    },
+    {
+      "id": 13,
+      "partner": "Michael  flynn",
+      "opponents": "Rui Ponte & Jeffery Iu",
+      "score": "11-8",
+      "result": "Win",
+      "date": "Apr 15",
+      "type": "Rec"
+    },
+    {
+      "id": 14,
+      "partner": " Kumar Yarlagadda ",
+      "opponents": "Dan Derlis & Jeremy  Holmes",
+      "score": "6-11",
+      "result": "Loss",
+      "date": "Apr 12",
+      "type": "Rec"
+    },
+    {
+      "id": 15,
+      "partner": "Rhianna Olicia",
+      "opponents": "Stephanie Boyadjian & Jesse Choi",
+      "score": "11-7",
+      "result": "Win",
+      "date": "Apr 12",
+      "type": "Rec"
+    },
+    {
+      "id": 16,
+      "partner": "Dan Derlis",
+      "opponents": "Jacob Garcia & Sam Khan",
+      "score": "11-4",
+      "result": "Win",
+      "date": "Apr 12",
+      "type": "Rec"
+    },
+    {
+      "id": 17,
+      "partner": "Mahnaz Sharify",
+      "opponents": "NITIN MALIK &  Kumar Yarlagadda ",
+      "score": "11-1",
+      "result": "Win",
+      "date": "Apr 12",
+      "type": "Rec"
+    },
+    {
+      "id": 18,
+      "partner": "Dave Binder",
+      "opponents": "Peter Kish & Paul Greenwood",
+      "score": "15-7",
+      "result": "Win",
+      "date": "Apr 11",
+      "type": "Rec"
+    },
+    {
+      "id": 19,
+      "partner": "Peter Kish",
+      "opponents": "Faiz Uddin &  Kumar Yarlagadda ",
+      "score": "15-8",
+      "result": "Win",
+      "date": "Apr 11",
+      "type": "Rec"
+    },
+    {
+      "id": 20,
+      "partner": "Hiyas  Colasito",
+      "opponents": "David Walley &  Kumar Yarlagadda ",
+      "score": "15-7",
+      "result": "Win",
+      "date": "Apr 11",
+      "type": "Rec"
+    },
+    {
+      "id": 21,
+      "partner": "Thomas Carijutan",
+      "opponents": "Gio Benavidez & Ricky Liorti",
+      "score": "6-15",
+      "result": "Loss",
+      "date": "Nov 9",
+      "type": "Tournament"
+    },
+    {
+      "id": 22,
+      "partner": "Thomas Carijutan",
+      "opponents": "Karan Khattar & Sidharth Chugh",
+      "score": "2-15",
+      "result": "Loss",
+      "date": "Nov 9",
+      "type": "Tournament"
+    },
+    {
+      "id": 23,
+      "partner": "Thomas Carijutan",
+      "opponents": "CJ Sison & Jamuel Tagorda",
+      "score": "9-15",
+      "result": "Loss",
+      "date": "Nov 9",
+      "type": "Tournament"
+    },
+    {
+      "id": 24,
+      "partner": "Thomas Carijutan",
+      "opponents": "Rico Florentino & Ryan Dominic",
+      "score": "7-15",
+      "result": "Loss",
+      "date": "Nov 9",
+      "type": "Tournament"
+    },
+    {
+      "id": 25,
+      "partner": "Thomas Carijutan",
+      "opponents": "Kristofer Roach & Dan GildonCormier",
+      "score": "15-4",
+      "result": "Win",
+      "date": "Nov 9",
+      "type": "Tournament"
+    },
+    {
+      "id": 26,
+      "partner": "None (Singles)",
+      "opponents": "Aidan Clegg",
+      "score": "13-15",
+      "result": "Loss",
+      "date": "Nov 6",
+      "type": "Tournament"
+    },
+    {
+      "id": 27,
+      "partner": "None (Singles)",
+      "opponents": "Manik Narula",
+      "score": "8-15",
+      "result": "Loss",
+      "date": "Nov 5",
+      "type": "Tournament"
+    },
+    {
+      "id": 28,
+      "partner": "None (Singles)",
+      "opponents": "Aidan Clegg",
+      "score": "15-17",
+      "result": "Loss",
+      "date": "Nov 5",
+      "type": "Tournament"
+    },
+    {
+      "id": 29,
+      "partner": "None (Singles)",
+      "opponents": "Jarod Mayhew",
+      "score": "15-11",
+      "result": "Win",
+      "date": "Nov 5",
+      "type": "Tournament"
+    },
+    {
+      "id": 30,
+      "partner": "None (Singles)",
+      "opponents": "Rashid Nakeyar",
+      "score": "15-2",
+      "result": "Win",
+      "date": "Nov 5",
+      "type": "Tournament"
     }
   ],
   "ratingHistory": [
-    { "label": "Feb 24", "val": "3.10" },
-    { "label": "May 24", "val": "3.42" },
-    { "label": "Sep 24", "val": "3.75" },
-    { "label": "Jan 25", "val": "3.90" },
-    { "label": "Jul 25", "val": "4.08" },
-    { "label": "Dec 25", "val": "4.18" },
-    { "label": "Apr 26", "val": "4.32" }
+    {
+      "label": "Feb 24",
+      "val": "3.10"
+    },
+    {
+      "label": "May 24",
+      "val": "3.42"
+    },
+    {
+      "label": "Sep 24",
+      "val": "3.75"
+    },
+    {
+      "label": "Jan 25",
+      "val": "3.90"
+    },
+    {
+      "label": "Jul 25",
+      "val": "4.08"
+    },
+    {
+      "label": "Dec 25",
+      "val": "4.18"
+    },
+    {
+      "label": "Apr 26",
+      "val": "4.32"
+    }
   ],
   "skillsBreakdown": [
-    { "name": "Third Shot Drop Success", "rate": 76 },
-    { "name": "Kitchen Dink Resets", "rate": 82 },
-    { "name": "Speed Ups (Volley Exchanges)", "rate": 68 },
-    { "name": "Lob Defense Retrieval", "rate": 62 },
-    { "name": "Serve Consistency", "rate": 88 }
+    {
+      "name": "Third Shot Drop Success",
+      "rate": 76
+    },
+    {
+      "name": "Kitchen Dink Resets",
+      "rate": 82
+    },
+    {
+      "name": "Speed Ups (Volley Exchanges)",
+      "rate": 68
+    },
+    {
+      "name": "Lob Defense Retrieval",
+      "rate": 62
+    },
+    {
+      "name": "Serve Consistency",
+      "rate": 88
+    }
   ],
   "matchStats": [
-    { "label": "Avg Points Per Game", "value": "11.2", "type": "positive" },
-    { "label": "Unforced Errors / Game", "value": "2.4", "type": "warning" },
-    { "label": "Kitchen Faults", "value": "0.3", "type": "good" },
-    { "label": "First Serve In %", "value": "89.6%", "type": "positive" }
+    {
+      "label": "Avg Points Per Game",
+      "value": "11.2",
+      "type": "positive"
+    },
+    {
+      "label": "Unforced Errors / Game",
+      "value": "2.4",
+      "type": "warning"
+    },
+    {
+      "label": "Kitchen Faults",
+      "value": "0.3",
+      "type": "good"
+    },
+    {
+      "label": "First Serve In %",
+      "value": "89.6%",
+      "type": "positive"
+    }
   ]
 }
